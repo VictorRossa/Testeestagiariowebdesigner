@@ -1,0 +1,55 @@
+/* Minhas cores */
+:root{
+--fundo: #0055ff51;
+background: radial-gradient(#bc31dc, #9198e5);
+
+}
+
+header{
+    inline-size: auto;
+}
+
+p{
+    text-align: center;
+}
+
+body{
+    font-family: 'Helvetica', sans-serif;
+    background: var(--gradientedefundo); 
+    color: rgb(208, 203, 48);
+    width: 50%;
+    margin: auto;   
+}
+
+h1, h2{
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    border-radius: 50px;
+    font-style: oblique;
+    margin-left: 30px;
+}
+
+img{
+    margin: 5px auto;        
+    width: 50%;
+    display: block;
+}
+
+@keyframes slidein {
+    from {
+     background: linear-gradient(#bc31dc, #9198e5);
+    opacity: 0;
+    transform: translateY(50vh)
+    }
+  
+    to {
+        background: linear-gradient(#bc31dc, #9198e5);
+        opacity: 1;
+        transform: translateY(0vh)
+    }
+  }
